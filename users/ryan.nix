@@ -9,12 +9,15 @@
 
   home.packages = [
     pkgs.bat
+    pkgs.tmux
     pkgs.ripgrep
     pkgs.eza
     pkgs.zoxide
+    pkgs.tree
     pkgs.htop
     pkgs.neovim
     pkgs.nodejs_20
+    pkgs.pandoc
   ];
 
   programs.git = {
