@@ -21,8 +21,7 @@
 
         # Disable Nix management from nix-darwin to avoid conflicts with Determinate
         nix.enable = false;
-
-
+        
         nix.settings.experimental-features = "nix-command flakes";
         system.configurationRevision = self.rev or self.dirtyRev or null;
         system.stateVersion = 6;

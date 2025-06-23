@@ -18,6 +18,9 @@
     pkgs.neovim
     pkgs.nodejs_20
     pkgs.pandoc
+    pkgs.terminus-nerdfont
+    pkgs.iosevka
+    pkgs.sshpass
   ];
 
   programs.git = {
